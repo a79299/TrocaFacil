@@ -30,7 +30,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+      backgroundColor: Colors.blue[50], // Light blue background
       body: Center(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(20.0),
@@ -50,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     Icon(
                       Icons.swap_horiz_rounded,
                       size: 80,
-                      color: Theme.of(context).primaryColor,
+                      color: Colors.blue[700], // Darker blue for icon
                     ),
                     const SizedBox(height: 20),
                     Text(
@@ -98,11 +98,14 @@ class _LoginScreenState extends State<LoginScreen> {
                     const SizedBox(height: 20),
                     ElevatedButton(
                       style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.blue[700], // Darker blue button
+                        foregroundColor: Colors.white, // White text on button
                         padding: const EdgeInsets.symmetric(horizontal: 50, vertical: 15),
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(30.0),
                         ),
                       ),
+
                       onPressed: _trySubmit,
                       child: Text(_isLogin ? 'Entrar' : 'Registar'),
                     ),
@@ -117,6 +120,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         _isLogin
                             ? 'Criar nova conta'
                             : 'Já tenho uma conta',
+                        style: TextStyle(color: Colors.blue[700]), // Blue link text
                       ),
                     )
                   ],
