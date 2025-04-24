@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'profile_screen.dart'; // Import the ProfileScreen
 
 // Placeholder data for items
 final List<Map<String, dynamic>> _sampleItems = [
@@ -139,12 +140,9 @@ class MyItemsScreen extends StatelessWidget {
   }
 }
 
-class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    // TODO: Implement user profile details and settings
-    return const Center(child: Text("Detalhes do perfil e configurações."));
+\n        }
+      ]
+    }
   }
 }
+```
