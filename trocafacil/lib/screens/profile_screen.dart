@@ -35,10 +35,11 @@ class _ProfileScreenState extends State<ProfileScreen> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            const CircleAvatar(
+        child: Center( // Wrap the Column with Center
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: <Widget>[
+              const CircleAvatar(
               radius: 50,
               // TODO: Display user profile picture
               // backgroundImage: NetworkImage(userProfileImageUrl),

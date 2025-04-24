@@ -140,9 +140,3 @@ class MyItemsScreen extends StatelessWidget {
   }
 }
 
-\n        }
-      ]
-    }
-  }
-}
-```
