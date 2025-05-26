@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "139452272115",
+    "project_id": "trocafacil-cde70",
+    "storage_bucket": "trocafacil-cde70.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139452272115:android:72ab13c051f52599669686",
+        "android_client_info": {
+          "package_name": "troca.facil"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLAzn0Jr0kE7qkTReJ79Od8l1F126mWNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
